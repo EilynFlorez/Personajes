@@ -7,7 +7,7 @@ public class Main {
         Personaje Elena = new Personaje("Elena", "Mujer", 20, "Asesino a su vecino.");
         Personaje Damon = new Vampiro("Damon", "Hombre", 150, "Se quiere tirar de un puente.");
         Personaje Klaus = new HombreLobo("Klaus", "Hombre", 500, "Quiere matar a Damon y Elena.");
-        Personaje Bonnie = new HombreLobo("Bonnie", "Mujer", 20, "Quiere matar a Klaus.");
+        Personaje Bonnie = new Bruja("Bonnie", "Mujer", 20, "Quiere matar a Klaus.");
 
         ArrayList<Personaje> Personajes = new ArrayList<>();
         Personajes.add(Elena);
